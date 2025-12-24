@@ -41,19 +41,8 @@
 * 从 **ASR 级别数据** 自动构建 Phrase 级样本
 * 高效生成 **phrase anchors**
 * 支持大规模音频数据并行处理
-* 适用于 Whisper / wav2vec2 / HuBERT / Conformer 等 ASR 输出
 
 👉 目标：**显著降低 ASR → Phrase 数据构建成本，加速 KWS 相关研究与复现**。
-
----
-
-## 🚀 使用场景
-
-* User-Defined Keyword Spotting (UD-KWS)
-* Phrase-level Keyword Spotting
-* Two-stage / Cascaded KWS
-* ASR + KWS 联合建模
-* 数据规模扩展与鲁棒性分析
 
 ---
 
@@ -72,13 +61,5 @@
 
 📄 Paper: [https://arxiv.org/abs/2510.10740](https://arxiv.org/abs/2510.10740)
 📝 Status: **Under Review**
-
----
-
-## 📬 联系方式
-
-如有问题、建议或合作意向，欢迎通过 HuggingFace 或 GitHub issue 联系。
-
----
 
 **⭐ 如果该项目对你有帮助，欢迎 Star / Cite / Share！**
